@@ -1,0 +1,57 @@
+.card-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-title h1 {
+    font-weight: 700;
+    font-size: 18px;
+    color: #242731;
+}
+.car-card-span {
+    display: flex;
+    width: 88%;
+    justify-self: start;
+    font-weight: 400;
+    font-size: 16px;
+    color: #72767C;
+}
+.booking-card {
+    background-color: white;
+}
+.booking-container {
+    background: #F5F5F5;
+    ;
+}
+select {
+    cursor: pointer;
+    outline: none;
+}
+.filter-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.filter-container {
+    display: flex;
+    justify-content: space-between;
+}
+.grid-icon {
+    background-color: white;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid-icon img {
+    width: 100%;
+}
+.booking-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 39px;
+    /* identical to box height */
+    /* primary/dark 1 */
+    color: #242731;
+}

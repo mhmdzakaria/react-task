@@ -1,0 +1,15 @@
+.card-title {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 28px;
+    color: white;
+    text-align: start;
+}
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.api-card {
+    background: #0F2837;
+}

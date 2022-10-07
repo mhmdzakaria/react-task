@@ -1,0 +1,174 @@
+.rounded,
+.grid-icon,
+.filter-icons img,
+.search-icon-span {
+    cursor: pointer;
+}
+.mystyle {
+    width: 100%;
+    padding: 25px;
+    background-color: coral;
+    color: white;
+    font-size: 25px;
+}
+.hidden {
+    display: none;
+}
+@media only screen and (max-width: 768px) {
+    .sidebar-container {
+        position: fixed;
+        background: white;
+        overflow: hidden;
+        z-index: 999;
+    }
+    .Logo-div {
+        display: flex;
+        justify-content: center;
+        margin-left: 0;
+        align-items: center;
+        margin-top: 0;
+    }
+    .search-input {
+        width: 48vw;
+    }
+    .link {
+        height: 40px;
+        display: flex;
+        align-items: center;
+        padding: 5px 14px;
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 500;
+        color: #5F6165;
+        width: 96%;
+        border-radius: 6px;
+        margin-left: 0%;
+        text-align: start;
+    }
+    .home-container {
+        justify-content: center;
+        width: 99%;
+        margin: auto;
+    }
+    .col-span-2.sidebar-div {
+        display: none;
+    }
+    .navbar-container {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        min-height: 86px;
+        padding: 0;
+    }
+    .navbar-container img {
+        width: auto;
+    }
+    .sidebar-container {
+        position: fixed;
+        background: white;
+        overflow: hidden;
+        z-index: 999;
+        padding: 0;
+        align-items: flex-start;
+        bottom: 0;
+        height: 84vh;
+        width: 100vw;
+        left: 0;
+        right: 0;
+    }
+    .sidebar-links.mb-48 {
+        margin-bottom: 0;
+    }
+    .sidebar-links.mt-24 {
+        margin-top: 0;
+    }
+    .sidebar-links-container.grid.grid-col-3.content-between {
+        display: contents;
+        flex-direction: column;
+    }
+    .badges-card,
+    .points-card {
+        width: -webkit-fill-available;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .chart-card {
+        width: -webkit-fill-available;
+    }
+    .car-card {
+        width: -webkit-fill-available;
+        align-items: flex-start;
+    }
+    .mobile-menue {
+        display: block;
+    }
+    .card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: -webkit-fill-available;
+    }
+    .discover-btn {
+        margin-bottom: 20px;
+    }
+    .badges-card h1,
+    .points-card h1 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .filter-container {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: baseline;
+    }
+    .filter-icons .filter-image {
+        height: 30px;
+        width: 30px;
+    }
+    span.grid-icon.rounded-full.p-3 {
+        height: 38px;
+        width: 38px;
+        margin: 0 5px;
+    }
+    select {
+        cursor: pointer;
+        outline: none;
+        height: 36px;
+        padding: 0 5px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .mobile-menue {
+        display: block;
+    }
+    .desktop-nav {
+        display: none;
+    }
+    .grid.grid-cols-1.sm\:grid-cols-2.md\:grid-cols-3.lg\:grid-cols-4.gap-4.my-5.dashboard-grid {
+        display: flex;
+        flex-direction: column;
+    }
+    .grid.grid-cols-1.sm\:grid-cols-3.md\:grid-cols-3.lg\:grid-cols-4.gap-4.my-5.dashboard-grid {
+        text-align: center;
+    }
+    .first-car-card h1,
+    .second-car-card h1,
+    .third-car-card h1 {
+        width: 100%;
+        font-size: 11px;
+        font-weight: bold;
+    }
+    .first-car-card h1 img,
+    .second-car-card h1 img,
+    .third-car-card h1 img {
+        padding-left: 0;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .mobile-menue {
+        display: block;
+    }
+}

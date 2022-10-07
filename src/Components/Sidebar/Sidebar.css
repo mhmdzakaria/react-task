@@ -1,0 +1,32 @@
+h2.logo-name.px-1 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+   color: #1F2128;
+}
+.active {
+    background: #F3F5F8;
+}
+.Logo-div {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10%;
+    align-items: center;
+}
+.link {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #5F6165;
+    width: 100%;
+    border-radius: 6px;
+    margin-left: 10%;
+}
+.sidebar-container
+{
+    position: fixed;
+}

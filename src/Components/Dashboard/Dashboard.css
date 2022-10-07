@@ -1,0 +1,191 @@
+.apply-card {
+    background: #FFE0BA;
+    box-shadow: 0px 0px 32px rgba(255, 150, 25, 0.1);
+    border-radius: 4px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.apply-card h1 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #0F2837;
+    padding-bottom: 7px;
+}
+.apply-card p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #0F2837;
+}
+.badges-card {
+    background: #0F2837;
+    box-shadow: 0px 0px 32px 8px rgba(15, 40, 55, 0.1);
+    border-radius: 4px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.badges-card h1,
+.points-card h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+}
+.badges-card p,
+.points-card p {
+    font-weight: 400;
+    font-size: 12px;
+    color: #FF9619;
+    padding-top: 10px;
+}
+.points-card {
+    background: #6E1946;
+    box-shadow: 0px 0px 32px 8px rgba(110, 25, 70, 0.1);
+    border-radius: 4px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.badges-span {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FF9619;
+}
+.points-span {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FAC39B;
+}
+.chart-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    gap: 10px;
+    width: 232px;
+    height: 266px;
+    background: white;
+    border-radius: 14px;
+}
+.chart-card h1 {
+    color: black;
+    font-weight: 700;
+    font-size: 24px;
+}
+.chart-card-active {
+    background: #A162F7;
+}
+.chart-card-active h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+}
+.car-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 27px;
+    gap: 10px;
+    width: 342px;
+    height: 236px;
+    border-radius: 14px;
+}
+.first-car-card {
+    background: #E1DFA4;
+}
+.second-car-card {
+    background: #E3ECF1;
+}
+.third-car-card {
+    background: #F4E3E5;
+}
+.dashoard-container {
+    width: auto;
+    overflow-x: hidden;
+    background: #F5F5F5;
+}
+canvas {
+    width: 112px !important;
+    height: 112px !important;
+}
+.discover-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 8px;
+    width: 125px;
+    height: 38px;
+    color: white;
+    margin-top: 28px;
+    background: #0F2837;
+    box-shadow: 0px 0px 40px rgba(235, 90, 60, 0.1);
+    border-radius: 4px;
+}
+nav.p-5.grid.grid-cols-2 {
+    border-left: 1px solid whitesmoke;
+}
+.first-car-card h1 {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #242731;
+}
+.second-car-card h1 {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #242731;
+}
+.third-car-card h1 {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #242731;
+}
+.car-card-title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #1F2128;
+}
+.icons-box {
+    display: flex;
+    width: 85%;
+    justify-content: start;
+    align-items: center;
+}
+.icons-box img {
+    height: 70%;
+}
+.icons-box span {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #72767C;
+}
+.rounded.chart-card:hover {
+    background-color: #a162f7;
+    cursor: pointer;
+}
+.rounded.chart-card:hover h1 {
+    color: white;
+}
+@media only screen and (max-width: 500px) {
+    .dashboard-grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
